@@ -1,0 +1,42 @@
+
+/* index.css */
+:root {
+  --primary-color: #1e90ff;
+  --primary-dark: #0f62c9;
+  --secondary-color: #1a3d7c;
+  --background-light: #f8fafc;
+  --background-white: #ffffff;
+  --text-dark: #222;
+  --text-gray: #555;
+  --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --border-radius: 12px;
+  --transition: 0.3s ease;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--background-light);
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  color: var(--secondary-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  transition: transform var(--transition), background-color var(--transition);
+}
+
+button:hover {
+  transform: translateY(-2px);
+}

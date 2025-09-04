@@ -1,0 +1,130 @@
+/* Projects.css */
+
+/* Section containers */
+#major-projects,
+#mini-projects {
+  padding: 50px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+#major-projects h1,
+#mini-projects h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+/* Project Cards */
+.project {
+  background: var(--background-white);
+  padding: 25px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--card-shadow);
+  margin-bottom: 40px;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.project:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Project Images */
+.project-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: 20px;
+  box-shadow: var(--card-shadow);
+}
+
+/* Titles & Sub-headings */
+.project-title {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+.sub-heading {
+  font-size: 1.2rem;
+  margin: 12px 0;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+/* Tech stack list */
+.tools-used {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+.tools-used li {
+  margin-bottom: 8px;
+  color: var(--text-gray);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Project details */
+.project-details {
+  margin-top: 15px;
+}
+
+.project-details h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  border-left: 4px solid var(--primary-color);
+  padding-left: 10px;
+}
+
+.project-details p {
+  font-size: 1rem;
+  color: var(--text-gray);
+  line-height: 1.6;
+}
+
+/* Buttons */
+.project a button {
+  margin-top: 15px;
+  padding: 10px 22px;
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color var(--transition), transform var(--transition);
+}
+
+.project a button:hover {
+  background: var(--primary-dark);
+  transform: translateY(-2px);
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .project-img {
+    height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .project {
+    padding: 18px;
+  }
+
+  .project-title {
+    font-size: 1.3rem;
+  }
+
+  .sub-heading {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,65 @@
+#about-page {
+  padding: 50px 20px;
+  background: var(--background-light);
+}
+
+#about-content-container {
+  max-width: 900px;
+  margin: auto;
+  background: var(--background-white);
+  padding: 40px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--card-shadow);
+  display: grid;
+  gap: 30px;
+}
+
+#about-content-container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+#about-content-container h2 {
+  font-size: 1.8rem;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 8px;
+}
+
+#about-content-container p {
+  color: var(--text-gray);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+#about-intro {
+  text-align: center; /* keeps heading & paragraph centered */
+}
+
+/* Resume Button */
+#about-intro a {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-weight: 600;
+  text-align: center;
+  transition: background-color var(--transition), transform var(--transition);
+}
+
+#about-intro a:hover {
+  background-color: var(--primary-dark);
+  transform: translateY(-2px);
+}
+
+/* Skill tags */
+#skills-and-expertise span {
+  display: inline-block;
+  background: #eaf3ff;
+  color: var(--primary-color);
+  border: 1px solid #d2e3fc;
+  padding: 5px 12px;
+  border-radius: 6px;
+  margin: 3px;
+}
