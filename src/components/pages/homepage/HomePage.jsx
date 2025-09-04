@@ -6,7 +6,7 @@ function HomePage() {
     <div className='homepage-container'>
       <div id='short-bio'>
         <h1 id='greetings'>Hello! I am Sai Srinivas Bojanapally.</h1>
-        <h2 id='sub-heading'>Full-Stack Developer | Innovator | Problem Solver</h2>
+        <h2 id='sub-heading'>Full-Stack Developer</h2>
         <p id='bio'>
           Welcome to my corner of the internet. I'm a dedicated full-stack developer 
           with a passion for building robust, scalable, and user-friendly applications.
